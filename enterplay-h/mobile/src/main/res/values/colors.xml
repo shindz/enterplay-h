@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="status_bar_color">#000000</color>
+
+    <!-- Request List Colors -->
+    <color name="nurse_request_text_msg_color">#bdbdbd</color>
+    <color name="high_priority_msg_color">#ff4081</color>
+    <color name="med_priority_msg_color">#b388ff</color>
+    <color name="low_priority_msg_color">#b3e5fc</color>
+
+    <color name="high_priority_background">#f50057</color>
+    <color name="medium_priority_background">#4527a0</color>
+    <color name="low_priority_background">#7c4dff</color>
+
+    <color name="high_priority_button_text_color">#ff4081</color>
+    <color name="medium_priority_button_text_color">#651fff</color>
+    <color name="low_priority_button_text_color">#b388ff</color>
+
+    <color name="lighter_gray">#bdbdbd</color>
+</resources>

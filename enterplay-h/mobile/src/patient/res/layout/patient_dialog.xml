@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/dialog_alert_background"
+        android:orientation="horizontal"
+        android:layout_width="400dp"
+        android:layout_height="135dp"
+        android:background="#0288D1">
+        <TextView
+            android:id="@+id/patientDialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:textColor="#ffffff"
+            android:textSize="38sp"
+            android:padding="20dp"
+            android:fontFamily="sans-serif-thin"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/dialog_alert_image"
+        android:orientation="horizontal"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/dialog_alert_background"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/patientDialogImage"
+            android:src="@drawable/nurse_icon"
+            android:layout_centerVertical="true"
+            android:paddingLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/nurseNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/patientDialogImage"
+            android:layout_toRightOf="@+id/patientDialogImage"
+            android:layout_centerVertical="true"
+            android:text="New Text"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/thanks_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/patientDialogImage"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Thanks"
+            android:background="@android:color/transparent"
+            android:gravity="right|center_vertical"
+            android:padding="10dp"
+            android:textColor="#757575"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

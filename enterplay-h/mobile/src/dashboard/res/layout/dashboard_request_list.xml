@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dashboard_right_background_color"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/open_request_list_request_icon"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/request_status_dot_medium"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/open_request_list_request_type"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="0dp"
+        android:textColor="#ffffff"
+        android:text="Request"/>
+
+    <TextView
+        android:id="@+id/open_request_list_room_numer"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:textColor="#ffffff"
+        android:text="Room 121"/>
+
+    <TextView
+        android:id="@+id/open_request_list_elapsed_time"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:textColor="@color/dashboard_right_gray_text_on_dark_gray"
+        android:text="Request"/>
+
+    <TextView
+        android:id="@+id/open_request_list_assigned"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:textColor="@color/dashboard_right_gray_text_on_dark_gray"
+        android:text="Request"/>
+
+</LinearLayout>

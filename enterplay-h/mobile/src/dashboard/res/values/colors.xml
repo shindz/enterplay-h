@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Drawer colors -->
+    <color name="dashboard_right_background_color">#02569c</color>
+    <color name="dashboard_right_blue_header_text">#05A8F5</color>
+    <color name="dashboard_right_gray_text_on_blue">#A4B8D0</color>
+    <color name="dashboard_right_gray_text_on_dark_gray">#aaaaaa</color>
+
+    <color name="dashboard_request_high_priority_dot">#ff4080</color>
+    <color name="dashboard_request_medium_priority_dot">#661fff</color>
+    <color name="dashboard_request_low_priority_dot">#b388fe</color>
+</resources>

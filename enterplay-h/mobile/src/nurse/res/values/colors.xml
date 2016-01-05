@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Drawer colors -->
+    <color name="left_drawer_text_color">#000000</color>
+    <color name="left_drawer_background_color">#424242</color>
+    <color name="left_drawer_selected_background_color">#212121</color>
+
+    <color name="nurse_toolbar_color">#03a9f4</color>
+
+    <!-- Request List Colors -->
+    <color name="nurse_request_text_msg_color">#6d6d6d</color>
+
+    <color name="nurse_request_list_background_color">#f5f5f5</color>
+</resources>

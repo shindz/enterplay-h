@@ -1,0 +1,18 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#764dff">
+
+        <TextView
+            android:id="@+id/all_officers_portrait"
+            android:gravity="center_vertical|left"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="30sp"
+            android:text="Open Requests"
+            android:textColor="#ffffff"/>
+
+
+    </RelativeLayout>

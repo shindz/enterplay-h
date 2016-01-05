@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dashboard_right_background_color">
+
+    <FrameLayout
+        android:id="@+id/dashboard_left_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/dashboard_left_graphic"/>
+
+    <TextView
+        android:id="@+id/dashboard_open_status_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/dashboard_left_screen"
+        android:layout_toEndOf="@id/dashboard_left_screen"
+        android:paddingLeft="10dp"
+        android:paddingRight="0dp"
+        android:textSize="20sp"
+        android:textColor="@color/dashboard_right_blue_header_text"
+        android:text="5 Open Requests"/>
+
+    <LinearLayout
+        android:id="@+id/dashboard_open_status_table_title"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_toRightOf="@+id/dashboard_left_screen"
+        android:layout_toEndOf="@id/dashboard_left_screen"
+        android:layout_below="@+id/dashboard_open_status_title"
+        android:paddingLeft="40dp"
+        android:paddingRight="0dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dashboard_right_blue_header_text"
+            android:text="Request"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dashboard_right_blue_header_text"
+            android:text="Room"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dashboard_right_blue_header_text"
+            android:text="Elapsed"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="0dp"
+            android:textColor="@color/dashboard_right_blue_header_text"
+            android:text="Assigned"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/dashboard_open_status"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_toRightOf="@+id/dashboard_left_screen"
+        android:layout_toEndOf="@id/dashboard_left_screen"
+        android:layout_below="@+id/dashboard_open_status_table_title"
+        android:background="@color/dashboard_right_background_color"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dashboard_open_status"
+        android:layout_toRightOf="@+id/dashboard_left_screen"
+        android:layout_toEndOf="@id/dashboard_left_screen"
+        android:paddingTop="40dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+        <ImageView
+            android:id="@+id/dashboard_left_graph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/graph_left"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/dashboard_left_graph"
+            android:layout_toEndOf="@id/dashboard_left_graph"
+            android:paddingLeft="40dp"
+            android:src="@drawable/graph_right"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

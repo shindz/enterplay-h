@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#f5f5f5">
+
+    <ImageView
+        android:id="@+id/request_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/assistance_highprio_icon"/>
+
+    <LinearLayout
+        android:id="@+id/left_request_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/request_image"
+        android:layout_toRightOf="@id/request_image"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/request_title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/request_message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/nurse_request_text_msg_color" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

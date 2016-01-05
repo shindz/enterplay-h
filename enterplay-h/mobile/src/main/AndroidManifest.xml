@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="acc.healthapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name="acc.healthapp.Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".notification.HealthAppGcmReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".notification.WearableNotificationService" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".MainDashActivity"
+            android:label="@string/title_activity_main_dash"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

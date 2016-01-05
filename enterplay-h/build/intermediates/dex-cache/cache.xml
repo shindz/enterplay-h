@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/shindz/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-youtube/v3-rev142-1.20.0/d8f55342e57149de5a664fe3e3f6f39766e81ee6/google-api-services-youtube-v3-rev142-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d8f55342e57149de5a664fe3e3f6f39766e81ee6">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/google-api-services-youtube-v3-rev142-1.20.0-60d50ec1c6b5049cc9400c72c7aa0420fd07d460.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-89708ddb8fc6d53be4bed61233218a8a3b754bdf.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-134c27687bd974a5b177a4ede1eb73af2956d956.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-05200833b108f069afdfcfa31d6b9f759dd9ef44.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.20.0/313dc99a7963523871495897ca11aa8472b3c6fd/google-http-client-android-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="313dc99a7963523871495897ca11aa8472b3c6fd">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/google-http-client-android-1.20.0-c32381bf88b489b9428a854f66db05d6c2b5875b.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.1/2e66da15851f9f5b5079228f856c2f090ba98c38/gson-2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/gson-2.1-193452d9d1154a400981681c22ce9a4a95ca872a.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-b71097a18faff49b7fc202796c44113b08d8f1e9.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/jackson-core-2.1.3-1c74c3c081196cffd3465b4de909481815f9fa05.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-9b849f066645fbab885a263bb169170382064cda.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.20.0/2408070b2abec043624d35b35e30450f1b663858/google-http-client-jackson2-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2408070b2abec043624d35b35e30450f1b663858">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/google-http-client-jackson2-1.20.0-b72b8d6d7fdc89fc184166661518fb6e1ab9d738.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-19cc1e3754b4df3e8ae2a6af8f5a35fa6a82b199.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/internal_impl-22.0.0-0e872de8a7b59bc58587ea209cc68338cc069536.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-738c7e3607d658323969e7c587414dada512d77b.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-ca14b7d3d0b1dc878033799afb526539612bb7ef.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-d508b3418b3770c29d6215ac5482c76e5aee9643.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.20.0/d3e66209ae9e749b2d6833761e7885f60f285564/google-api-client-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d3e66209ae9e749b2d6833761e7885f60f285564">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/google-api-client-1.20.0-3a07f90c03e3ad750bdcfacdd974a6970d8627e9.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/libs/Parse-1.9.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="35921ead63f6cafd9f84ff178c60fe474c4b17a6">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/Parse-1.9.3-d700df4b1af834f7b89f92d85166b2d1d28f4b5c.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-5fe1a49ecee202beceabff68a0c9bc32d06bb6b8.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-a89c9d69d32be81300121dd6be86b45c98a668cb.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-1ad39a21ea3a4853a7dab39b8dd3f8c9cdec945a.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/bolts-android-1.2.0-04c79c8fbb6fbad412962c49ceef81f3d0e34cfa.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-467b295d7f0dab20718832c244d777dc8e9be436.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-6c9f73198e5f8b4a108b0b187c58c1d35b5a83b4.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-e79f16410472773fc807895347cecf5d24f2f35f.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/YouTubeAndroidPlayerApi-24eb1dccf61fab46f0d761a2f75aca4c53b81480.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-2a5654fe1dd44b1f53073fb998200d4c0d950a46.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-43c7d019f6f539de19716d659afdb8aa1cdd3ca4.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-5f785150b6cb14dc6b02a3129a099aaab599fad5.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/internal_impl-22.2.0-0cbaee57bfcdb86a8097763128c2ac2a113d9cc0.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/guava-jdk5-13.0-bc71d11a70b7638bfe68d544dff14a51b672f5bf.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-8e0c0598e996152c18a86ec318cadbbf9f623f98.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-62312576f361d6a0e37f877afe2dc4ea96f48a11.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/picasso-2.5.2-9e5a275f44532ff59e067381f60b0228d7102cfe.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-0d4ba1a4225d5ba9f9a1f09e931bda51187e1562.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.telly/mrvector/0.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e9cd6fddebfe1293fe1bf4c0c6b1ac27a8d91a0">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-4268a826c9700f302517968cd8a1a3d464addcea.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-gson/1.20.0/ace1924800ca8c256f6a3f63e72ee13e1b458d36/google-api-client-gson-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ace1924800ca8c256f6a3f63e72ee13e1b458d36">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/google-api-client-gson-1.20.0-5b837a7273e42b367f2701360e95835d30fb628a.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.20.0/1d086ac5756475ddf451af2e2df6e288d18608ca/google-oauth-client-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1d086ac5756475ddf451af2e2df6e288d18608ca">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/google-oauth-client-1.20.0-f3776efb33f2219b73042dfc8a991bc47f50cf20.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.20.0/5673179575c32b69a474334255c3044adf18d40/google-api-client-android-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="05673179575c32b69a474334255c3044adf18d40">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/google-api-client-android-1.20.0-c00e0031124ea261ecc53b5dbad21698b84a677b.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/jsr305-1.3.9-bf40e2700b899f185d699443db543f59ec36ba01.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-69efd18865ae76dda28d54b9ce1ab51df196b71d.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-184d80997f6a9a9df78719de43f5cf4cf9753bdf.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-calendar/v3-rev125-1.20.0/fef496f895ad5be86416863153d4efbf7b601f8a/google-api-services-calendar-v3-rev125-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fef496f895ad5be86416863153d4efbf7b601f8a">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/google-api-services-calendar-v3-rev125-1.20.0-08f4c3d700e5bb6f2f83e8cd4f32e89ebdb02e0f.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/classes-327f889e1aace64f3d464a56ffd8d31950c44807.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-gson/1.20.0/9204765f39000f6109c927ac66c7963bf9c7df19/google-http-client-gson-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9204765f39000f6109c927ac66c7963bf9c7df19">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/google-http-client-gson-1.20.0-6224fe4b196421d7cd792837f43775beb5147896.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/support-annotations-22.2.0-7f719d4392ccfe0b55ca47413eeca4f7e906ac46.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shindz/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.20.0/93d82db2bca534960253f43424b2ba9d7638b4d2/google-http-client-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="93d82db2bca534960253f43424b2ba9d7638b4d2">
+        <dex dex="/Users/shindz/Documents/Google/Development/Code/health-app-master/HealthApp/mobile/build/intermediates/pre-dexed/patient/debug/google-http-client-1.20.0-c50be72f680e0a87106e48dc86325f9a56b6fed6.jar/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,101 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" tools:context="acc.healthapp.fragments.RequestsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="800dp"
+            android:layout_height="match_parent"
+            android:id="@+id/requestLayout">
+
+                <ImageView
+                    android:layout_width="260dp"
+                    android:layout_height="260dp"
+                    android:id="@+id/pillowRequest"
+                    android:src="@drawable/requestpillowselector"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    />
+
+                <ImageView
+                    android:layout_width="260dp"
+                    android:layout_height="260dp"
+                    android:layout_toEndOf="@+id/pillowRequest"
+                    android:layout_toRightOf="@+id/pillowRequest"
+                    android:id="@+id/waterRequest"
+                    android:src="@drawable/requestwaterselector"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    />
+
+                <ImageView
+                    android:layout_width="260dp"
+                    android:layout_height="260dp"
+                    android:layout_toEndOf="@+id/waterRequest"
+                    android:layout_toRightOf="@+id/waterRequest"
+                    android:src="@drawable/requestassistanceselector"
+                    android:id="@+id/assistanceRequest"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    />
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="260dp"
+                android:layout_below="@+id/pillowRequest"
+                android:id="@+id/toiletRequest"
+                android:src="@drawable/requesttoiletselector"
+                android:padding="10dp"
+                android:clickable="true"
+                />
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="260dp"
+                android:layout_below="@+id/pillowRequest"
+                android:layout_toEndOf="@+id/toiletRequest"
+                android:layout_toRightOf="@+id/toiletRequest"
+                android:src="@drawable/requestotherselector"
+                android:id="@+id/otherRequest"
+                android:padding="10dp"
+                android:clickable="true"
+                />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/openRequestsHeader"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/requestLayout"
+            android:layout_toEndOf="@+id/requestLayout"
+            android:background="#764dff">
+
+            <TextView
+                android:id="@+id/all_officers_portrait"
+                android:gravity="center_vertical|left"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+
+                android:text="Open Requests"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/openRequests"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@+id/requestLayout"
+            android:layout_toEndOf="@+id/requestLayout"
+            android:layout_below="@+id/openRequestsHeader"></FrameLayout>
+    </RelativeLayout>
+
+</FrameLayout>

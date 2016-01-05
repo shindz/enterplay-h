@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HospitalApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_dash">MainDashActivity</string>
+    <string-array name="tabs">
+        <item>Home</item>
+        <item>Entertainment</item>
+        <item>Requests</item>
+        <item>Schedule</item>
+        <item>Contact</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="drawer_opened">Navigation Drawer Opened</string>
+    <string name="drawer_closed">Navigation Drawer Closed</string>
+
+    <string name="gcm_defaultSenderId">8734740300</string>
+
+</resources>

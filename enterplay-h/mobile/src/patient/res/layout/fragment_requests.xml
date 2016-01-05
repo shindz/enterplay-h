@@ -1,0 +1,96 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" tools:context="acc.healthapp.fragments.RequestsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:id="@+id/requestLayout">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/pillowRequest"
+                    android:src="@drawable/pillow"
+                    android:clickable="true"
+                    />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_toEndOf="@+id/pillowRequest"
+                    android:layout_toRightOf="@+id/pillowRequest"
+                    android:id="@+id/waterRequest"
+                    android:src="@drawable/water"
+                    android:clickable="true"
+                    />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_toEndOf="@+id/waterRequest"
+                    android:layout_toRightOf="@+id/waterRequest"
+                    android:src="@drawable/assistance"
+                    android:id="@+id/assistanceRequest"
+                    android:clickable="true"
+                    />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/pillowRequest"
+                android:id="@+id/toiletRequest"
+                android:src="@drawable/toilet"
+                android:clickable="true"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/pillowRequest"
+                android:layout_toEndOf="@+id/toiletRequest"
+                android:layout_toRightOf="@+id/toiletRequest"
+                android:src="@drawable/other"
+                android:id="@+id/otherRequest"
+                android:clickable="true"
+                />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/openRequestsHeader"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/requestLayout"
+            android:layout_toEndOf="@+id/requestLayout"
+            android:background="#764dff">
+
+            <TextView
+                android:id="@+id/all_officers_portrait"
+                android:gravity="center_vertical|left"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+
+                android:text="Open Requests"
+                android:textColor="#ffffff"
+                android:textSize="8dp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/openRequests"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@+id/requestLayout"
+            android:layout_toEndOf="@+id/requestLayout"
+            android:layout_below="@+id/openRequestsHeader"></FrameLayout>
+    </RelativeLayout>
+
+</FrameLayout>

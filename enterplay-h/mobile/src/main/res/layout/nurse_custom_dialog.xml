@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/dialog_alert_background"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/dialogIcon"
+            android:layout_gravity="center"
+            android:src="@drawable/assistance_highprio_icon"
+            android:layout_centerVertical="true"
+            android:paddingLeft="4dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/dialogIcon"
+            android:layout_toEndOf="@+id/dialogIcon"
+            android:text="New Text"
+            android:id="@+id/dialogTittle"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:textColor="#ffffff"
+            android:padding="10dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="John D\ntest"
+        android:id="@+id/patientName"
+        android:visibility="visible"
+        android:padding="8dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leukemia"
+        android:id="@+id/condition"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="31 mins ago"
+        android:includeFontPadding="false"
+        android:id="@+id/time_ago"
+        android:padding="8dp"
+        android:visibility="visible"
+        android:gravity="left|top"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lighter_gray"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACCEPT"
+        android:id="@+id/acceptbutton"
+        android:background="#ffffff"
+        android:gravity="left|center_vertical"
+        android:padding="8dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LATER"
+        android:id="@+id/laterbutton"
+        android:background="#ffffff"
+        android:gravity="left|center_vertical"
+        android:padding="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELEGATE"
+        android:id="@+id/delegatebutton"
+        android:background="#ffffff"
+        android:gravity="left|center_vertical"
+        android:padding="8dp"/>
+
+
+</LinearLayout>
+
+</RelativeLayout>

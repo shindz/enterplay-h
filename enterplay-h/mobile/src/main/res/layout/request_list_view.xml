@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f5f5f5"
+    >
+
+    <TextView
+        android:id="@+id/request_title"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:background="#f5f5f5"
+        android:text="Open Requests"
+        android:textColor="#7c4dff"
+        android:textSize="20sp"
+        android:gravity="center_vertical|left"/>
+
+    <TextView
+        android:id="@+id/request_title_left"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/request_title"
+        android:background="#f5f5f5"
+        android:textSize="15sp"
+        android:text="Status: "
+        android:textColor="#757575"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/request_status_text"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/request_title"
+        android:layout_toEndOf="@+id/request_title_left"
+        android:layout_toRightOf="@+id/request_title_left"
+        android:background="#f5f5f5"
+        android:textSize="15sp"
+        android:text="Test Status"
+        android:textStyle="bold"
+        android:textColor="#7c4dff"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>
