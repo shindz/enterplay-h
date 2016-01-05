@@ -1,31 +1,19 @@
 package acc.healthapp.fragments;
 
 import android.app.Activity;
-import android.app.Dialog;
 import android.content.DialogInterface;
-import android.graphics.Color;
-import android.graphics.PorterDuff;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
 
 import acc.healthapp.R;
 import acc.healthapp.api.GetAllRequestCallback;
@@ -33,6 +21,10 @@ import acc.healthapp.api.HealthAppApi;
 import acc.healthapp.model.Request;
 import acc.healthapp.model.RequestCurrentPriority;
 import acc.healthapp.model.RequestStatus;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 /**
  * A fragment representing a list of Items.
@@ -317,7 +309,7 @@ public class OpenRequestsListFragment extends Fragment implements
         List<Request> copyOfRequests = new ArrayList<>();
 
         for (Request request : requests) {
-            if (request.getRequestStatus().toInt() != RequestStatus.COMPLETED) {
+            if (request.getRequestStatus().toInt().intValue() != RequestStatus.COMPLETED) {
 
                 // if there is a filter just add those that matches the filter
                 if (filterPriority != null) {

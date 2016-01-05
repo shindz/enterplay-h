@@ -1,7 +1,46 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" tools:context="acc.healthapp.fragments.HomeFragment"
-    android:background="@drawable/patient_dashboard">
+    android:background="@drawable/patient_dashboard" android:id="@+id/pluse_frame_layout">
 
+    <ImageView
+        android:layout_width="480dp"
+        android:layout_height="380dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="left|top"
+        android:background="#b5abab"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_account_picture_profile"
+        android:layout_width="@dimen/nav_drawer_profile_image_size"
+        android:layout_height="@dimen/nav_drawer_profile_image_size"
+        android:src="@drawable/ic_account_circle_64dp"
+        android:layout_gravity="top|center_vertical"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/textViewNameValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_account_picture_profile"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="320dp"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:id="@+id/textViewEmailValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewNameValue"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="350dp"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="@color/text_color"/>
 
 </FrameLayout>

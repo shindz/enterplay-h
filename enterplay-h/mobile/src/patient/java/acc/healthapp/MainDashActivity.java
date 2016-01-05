@@ -13,27 +13,23 @@ import android.support.v4.view.ViewPager;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.style.ImageSpan;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-import com.google.android.gms.common.Scopes;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.Scope;
-import com.google.android.gms.plus.Plus;
 import com.telly.mrvector.MrVector;
 
-import java.util.List;
 
 import acc.healthapp.fragments.FragmentDummy;
+import acc.healthapp.fragments.HomeFragment;
 import acc.healthapp.fragments.PatientDialogHelper;
 import acc.healthapp.fragments.ReqFragment;
-import acc.healthapp.fragments.HomeFragment;
 import acc.healthapp.model.Request;
 import acc.healthapp.model.RequestStatus;
 import acc.healthapp.notification.NotificationID;
 import acc.healthapp.notification.NotificationsConstants;
 import acc.healthapp.tabs.SlidingTabLayout;
+import java.util.List;
 
 
 public class MainDashActivity extends MainDashBaseActivity {
@@ -65,7 +61,7 @@ public class MainDashActivity extends MainDashBaseActivity {
                                                final Integer notificationID) {
 
         // verify if its a in-progress status
-        if (request.getRequestStatus().toInt() == RequestStatus.IN_PROGRESS) {
+        if (request.getRequestStatus().toInt().intValue() == RequestStatus.IN_PROGRESS) {
             PatientDialogHelper dialogHelper = new PatientDialogHelper();
             dialogHelper.renderDialog(this, request);
         }
@@ -198,4 +194,29 @@ public class MainDashActivity extends MainDashBaseActivity {
         }
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        Log.d("Main Dash","Called");
+        Log.d("Main Dash",""+data);
+        if (requestCode == HomeFragment.RC_SIGN_IN) {
+            List<Fragment> allFragments = getSupportFragmentManager().getFragments();
+            if (allFragments != null) {
+
+                for (Fragment fragment : allFragments) {
+
+                    if (fragment instanceof HomeFragment) {
+                        HomeFragment homefragment = (HomeFragment) fragment;
+
+                        if (homefragment != null) {
+                            Log.d("Fragment","Not Null");
+                            homefragment.onActivityResult(requestCode, resultCode, data);
+                        }
+                    }
+
+                }
+            }
+        } else {
+            super.onActivityResult(requestCode, resultCode, data);
+        }
+    }
 }

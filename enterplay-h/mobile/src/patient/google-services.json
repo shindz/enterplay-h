@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_id": "patientapp-1181",
+    "project_number": "1017095715704",
+    "name": "PatientApp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017095715704:android:61a3734fe7e67c9a",
+        "client_id": "android:acc.healthapp.patient",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "acc.healthapp.patient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017095715704-5mvj14tngpf4lbfnn7istvu9r7kr5bj7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "acc.healthapp.patient",
+            "certificate_hash": "89EBD7F7D9CF4E3D78CC051E36B1A86284828A82"
+          }
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
