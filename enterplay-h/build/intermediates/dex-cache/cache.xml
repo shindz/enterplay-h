@@ -2,39 +2,130 @@
 <items version="2" >
 
     <item
-        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.3.0/bc535105332645408ef5f1380215cc954b842178/bolts-applinks-1.3.0.jar"
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="bc535105332645408ef5f1380215cc954b842178">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/bolts-applinks-1.3.0-cd9988cd9cee7bc5a806f69d809f1ffc67e3cd2b.jar/classes.dex" />
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-c88f0c636ef7a5de4f8a1bcbdf75cf9c75ffe5e1.jar/classes.dex" />
     </item>
     <item
-        jar="/Users/pronob.mukherjee/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/support-annotations-22.2.0-0e3618d0144c1108c6aef419b8c01dcb28cd1a5e.jar/classes.dex" />
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-0412b5b65a93641f7f95382a58268ec7d48de139.jar/classes.dex" />
     </item>
     <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-youtube/v3-rev142-1.20.0/d8f55342e57149de5a664fe3e3f6f39766e81ee6/google-api-services-youtube-v3-rev142-1.20.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-67f142cb41a60e5a167f272c800af4a130fbb643.jar/classes.dex" />
+        sha1="d8f55342e57149de5a664fe3e3f6f39766e81ee6">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-api-services-youtube-v3-rev142-1.20.0-76c317fccedc6a47ab29ecdb4ce42162cc7bc713.jar/classes.dex" />
     </item>
     <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/internal_impl-22.2.0-c949039df71cecddf7b28e6dbbf3c607772aad19.jar/classes.dex" />
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-5f07686c55fad3eed931528e55ef1f31cb46256e.jar/classes.dex" />
     </item>
     <item
-        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-calendar/v3-rev125-1.20.0/fef496f895ad5be86416863153d4efbf7b601f8a/google-api-services-calendar-v3-rev125-1.20.0.jar"
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/libs/YouTubeAndroidPlayerApi.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="fef496f895ad5be86416863153d4efbf7b601f8a">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-api-services-calendar-v3-rev125-1.20.0-8148d5463e75f9bd711295aabf710ad2ac38786b.jar/classes.dex" />
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/YouTubeAndroidPlayerApi-15202c4ab347a0938d5c3585ea11a6abc6198331.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.20.0/5673179575c32b69a474334255c3044adf18d40/google-api-client-android-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="05673179575c32b69a474334255c3044adf18d40">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-api-client-android-1.20.0-03a8564db35ced07bc242b39ce5e92c7598d49a6.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.20.0/313dc99a7963523871495897ca11aa8472b3c6fd/google-http-client-android-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="313dc99a7963523871495897ca11aa8472b3c6fd">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-http-client-android-1.20.0-2fab0f63a3b662ff16ddb47d8820e1de44c48048.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.1/2e66da15851f9f5b5079228f856c2f090ba98c38/gson-2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/gson-2.1-caf1d275b95160a0dd2fe7a11dd20fb15fc298f3.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.android.support/leanback-v17/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="555d27ee3451fd34f0de714c39ac240da0d27d7f">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-b0674605ab0c4f834055283aae0f423caad3540f.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-c6f057054b10e44287a4d7989afb22696d558e37.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-d9755268ea4e9e945bb7629787ef7f95e6f7abec.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-29cc5b58e624089106b5bf31865be9e23e0d5cd8.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-ff1c3a76ff9fffd0ad375737ce6ccf281ac1b54b.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.20.0/2408070b2abec043624d35b35e30450f1b663858/google-http-client-jackson2-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2408070b2abec043624d35b35e30450f1b663858">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-http-client-jackson2-1.20.0-e7eecbdeb3a0d87717187c9f0ab3f879e5d0ef94.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-878b88ab5b21afeddc71f41336c99dcfe6355965.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/picasso-2.5.2-c219eb3b82432851933c0b23ae934131811208e0.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.telly/mrvector/0.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e9cd6fddebfe1293fe1bf4c0c6b1ac27a8d91a0">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-9c5f447466e82090ede2912921f5f1eb09165866.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-fb3183097f60c3ffac136d8c5c50685edd141bcb.jar/classes.dex" />
     </item>
     <item
         jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.3.0/8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c/bolts-tasks-1.3.0.jar"
@@ -51,102 +142,11 @@
         <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-api-client-1.20.0-82f2859fdda1427403e61468ae69cd60365b2e7c.jar/classes.dex" />
     </item>
     <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-8075b41c813debd0e0a0a21db493a110d7024d0b.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-gson/1.20.0/ace1924800ca8c256f6a3f63e72ee13e1b458d36/google-api-client-gson-1.20.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ace1924800ca8c256f6a3f63e72ee13e1b458d36">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-api-client-gson-1.20.0-7cfede8b031518f9752a0f560a99deca356901b6.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/internal_impl-22.0.0-72c55fa1c401373934795d1c46d0d9f3a969bb95.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/libs/YouTubeAndroidPlayerApi.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/YouTubeAndroidPlayerApi-15202c4ab347a0938d5c3585ea11a6abc6198331.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-5f07686c55fad3eed931528e55ef1f31cb46256e.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/jackson-core-2.1.3-b4a313f088c4c98e8efbf0167a3c95835671e7fd.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-d9755268ea4e9e945bb7629787ef7f95e6f7abec.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-gson/1.20.0/9204765f39000f6109c927ac66c7963bf9c7df19/google-http-client-gson-1.20.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9204765f39000f6109c927ac66c7963bf9c7df19">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-http-client-gson-1.20.0-0321215977444f95b59ae2844bff27241300dde6.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-youtube/v3-rev142-1.20.0/d8f55342e57149de5a664fe3e3f6f39766e81ee6/google-api-services-youtube-v3-rev142-1.20.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d8f55342e57149de5a664fe3e3f6f39766e81ee6">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-api-services-youtube-v3-rev142-1.20.0-76c317fccedc6a47ab29ecdb4ce42162cc7bc713.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d405025c600055237c171a0bbabaa49d69696573">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-66f261647fcb387f1311af1502248a9857af70b3.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.telly/mrvector/0.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="0e9cd6fddebfe1293fe1bf4c0c6b1ac27a8d91a0">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-9c5f447466e82090ede2912921f5f1eb09165866.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-0412b5b65a93641f7f95382a58268ec7d48de139.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-1def08986b1b833c734e065dce16fe5870914565.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/libs/Parse-1.9.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="35921ead63f6cafd9f84ff178c60fe474c4b17a6">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/Parse-1.9.3-7525aeb3c8416492b808f4d361718c5d1e9197c6.jar/classes.dex" />
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-598ba41dfdca93be2dbf6dbfdcdb44e3c92fe8ea.jar/classes.dex" />
     </item>
     <item
         jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
@@ -156,41 +156,6 @@
         <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-12e6804851899cdee040efce3ec4eca441b88cd8.jar/classes.dex" />
     </item>
     <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-d88cdccf2e5f7e82373131ce4d23c018e4c6c900.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.20.0/5673179575c32b69a474334255c3044adf18d40/google-api-client-android-1.20.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="05673179575c32b69a474334255c3044adf18d40">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-api-client-android-1.20.0-03a8564db35ced07bc242b39ce5e92c7598d49a6.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/picasso-2.5.2-c219eb3b82432851933c0b23ae934131811208e0.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-691b37840bf6ffa9ba0eca346f0ca20b38951f37.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.20.0/2408070b2abec043624d35b35e30450f1b663858/google-http-client-jackson2-1.20.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2408070b2abec043624d35b35e30450f1b663858">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-http-client-jackson2-1.20.0-e7eecbdeb3a0d87717187c9f0ab3f879e5d0ef94.jar/classes.dex" />
-    </item>
-    <item
         jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -198,18 +163,25 @@
         <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-43bf47752cf3f7fd7185db9fbb1098ee969fe9c8.jar/classes.dex" />
     </item>
     <item
-        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar"
+        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-calendar/v3-rev125-1.20.0/fef496f895ad5be86416863153d4efbf7b601f8a/google-api-services-calendar-v3-rev125-1.20.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/guava-jdk5-13.0-f4ec3daec0925fbd07e8a42cde20dbb876e4e1e7.jar/classes.dex" />
+        sha1="fef496f895ad5be86416863153d4efbf7b601f8a">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-api-services-calendar-v3-rev125-1.20.0-8148d5463e75f9bd711295aabf710ad2ac38786b.jar/classes.dex" />
     </item>
     <item
-        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.20.0/1d086ac5756475ddf451af2e2df6e288d18608ca/google-oauth-client-1.20.0.jar"
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="1d086ac5756475ddf451af2e2df6e288d18608ca">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-oauth-client-1.20.0-aefc380306f29575da5b1ad4d809adb05f57bdef.jar/classes.dex" />
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-1def08986b1b833c734e065dce16fe5870914565.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/jsr305-1.3.9-2bc70524f8620eef5d505e550057cf5d749646bd.jar/classes.dex" />
     </item>
     <item
         jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
@@ -226,11 +198,11 @@
         <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-999a72adcb4684c7eb5c4875f348a3d4bc805d29.jar/classes.dex" />
     </item>
     <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.20.0/1d086ac5756475ddf451af2e2df6e288d18608ca/google-oauth-client-1.20.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-598ba41dfdca93be2dbf6dbfdcdb44e3c92fe8ea.jar/classes.dex" />
+        sha1="1d086ac5756475ddf451af2e2df6e288d18608ca">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-oauth-client-1.20.0-aefc380306f29575da5b1ad4d809adb05f57bdef.jar/classes.dex" />
     </item>
     <item
         jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
@@ -240,20 +212,6 @@
         <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-f95fe938d85fa9c1ac236c55539a9949d995e7d8.jar/classes.dex" />
     </item>
     <item
-        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/jsr305-1.3.9-2bc70524f8620eef5d505e550057cf5d749646bd.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-c88f0c636ef7a5de4f8a1bcbdf75cf9c75ffe5e1.jar/classes.dex" />
-    </item>
-    <item
         jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -261,11 +219,46 @@
         <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-242442ab275876ae7cf41de5c3320f7c514c7c85.jar/classes.dex" />
     </item>
     <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/libs/Parse-1.9.3.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-29cc5b58e624089106b5bf31865be9e23e0d5cd8.jar/classes.dex" />
+        sha1="35921ead63f6cafd9f84ff178c60fe474c4b17a6">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/Parse-1.9.3-7525aeb3c8416492b808f4d361718c5d1e9197c6.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-691b37840bf6ffa9ba0eca346f0ca20b38951f37.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-66f261647fcb387f1311af1502248a9857af70b3.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/jackson-core-2.1.3-b4a313f088c4c98e8efbf0167a3c95835671e7fd.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/internal_impl-23.1.0-1ee630754e39552511f05c07ec7e0b33ee6f6d0b.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-gson/1.20.0/9204765f39000f6109c927ac66c7963bf9c7df19/google-http-client-gson-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9204765f39000f6109c927ac66c7963bf9c7df19">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-http-client-gson-1.20.0-0321215977444f95b59ae2844bff27241300dde6.jar/classes.dex" />
     </item>
     <item
         jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
@@ -275,18 +268,32 @@
         <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-0ab5073476ff21c95df08abd704835f669107f3e.jar/classes.dex" />
     </item>
     <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-c6f057054b10e44287a4d7989afb22696d558e37.jar/classes.dex" />
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-d88cdccf2e5f7e82373131ce4d23c018e4c6c900.jar/classes.dex" />
     </item>
     <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-ff1c3a76ff9fffd0ad375737ce6ccf281ac1b54b.jar/classes.dex" />
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-67f142cb41a60e5a167f272c800af4a130fbb643.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.20.0/93d82db2bca534960253f43424b2ba9d7638b4d2/google-http-client-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="93d82db2bca534960253f43424b2ba9d7638b4d2">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-http-client-1.20.0-648172dc12d678c53c6d47f2fc826b516d8e6a69.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-3e09d4d26e7c61c1fb151a55b3004e8a423a535c.jar/classes.dex" />
     </item>
     <item
         jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
@@ -296,25 +303,11 @@
         <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-857e6a0f57dd84aa9ed8b12393aeb996bd4c4abb.jar/classes.dex" />
     </item>
     <item
-        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.1/2e66da15851f9f5b5079228f856c2f090ba98c38/gson-2.1.jar"
+        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/gson-2.1-caf1d275b95160a0dd2fe7a11dd20fb15fc298f3.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-878b88ab5b21afeddc71f41336c99dcfe6355965.jar/classes.dex" />
-    </item>
-    <item
-        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.20.0/313dc99a7963523871495897ca11aa8472b3c6fd/google-http-client-android-1.20.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="313dc99a7963523871495897ca11aa8472b3c6fd">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-http-client-android-1.20.0-2fab0f63a3b662ff16ddb47d8820e1de44c48048.jar/classes.dex" />
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/guava-jdk5-13.0-f4ec3daec0925fbd07e8a42cde20dbb876e4e1e7.jar/classes.dex" />
     </item>
     <item
         jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
@@ -324,18 +317,39 @@
         <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-90a4ca7e1590858ade56054f330767e3af0cc710.jar/classes.dex" />
     </item>
     <item
-        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-ebd410056d7a2b47a8ace34605af633dcd58bbbf.jar/classes.dex" />
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/internal_impl-22.0.0-72c55fa1c401373934795d1c46d0d9f3a969bb95.jar/classes.dex" />
     </item>
     <item
-        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.20.0/93d82db2bca534960253f43424b2ba9d7638b4d2/google-http-client-1.20.0.jar"
+        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.3.0/bc535105332645408ef5f1380215cc954b842178/bolts-applinks-1.3.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="93d82db2bca534960253f43424b2ba9d7638b4d2">
-        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-http-client-1.20.0-648172dc12d678c53c6d47f2fc826b516d8e6a69.jar/classes.dex" />
+        sha1="bc535105332645408ef5f1380215cc954b842178">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/bolts-applinks-1.3.0-cd9988cd9cee7bc5a806f69d809f1ffc67e3cd2b.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-gson/1.20.0/ace1924800ca8c256f6a3f63e72ee13e1b458d36/google-api-client-gson-1.20.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ace1924800ca8c256f6a3f63e72ee13e1b458d36">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/google-api-client-gson-1.20.0-7cfede8b031518f9752a0f560a99deca356901b6.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/support-annotations-23.1.0-55a4469ef09cd3be2ada60ba23f94ddcdf114a39.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/Users/pronob.mukherjee/Documents/PRONOB/Work/GoogleProject/HealthApp/enterplay-h/enterplay-h/mobile/build/intermediates/pre-dexed/patient/debug/classes-8075b41c813debd0e0a0a21db493a110d7024d0b.jar/classes.dex" />
     </item>
 
 </items>

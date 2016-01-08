@@ -3,14 +3,14 @@
     android:layout_height="match_parent" tools:context="acc.healthapp.fragments.HomeFragment"
     android:background="@drawable/patient_dashboard" android:id="@+id/pluse_frame_layout">
 
-    <ImageView
-        android:layout_width="480dp"
-        android:layout_height="380dp"
-        android:id="@+id/imageView"
-        android:layout_gravity="left|top"
-        android:background="#b5abab"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"/>
+    <!--<ImageView-->
+        <!--android:layout_width="480dp"-->
+        <!--android:layout_height="380dp"-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_gravity="left|top"-->
+        <!--android:background="#96b5abab"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginTop="20dp"/>-->
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/user_account_picture_profile"
@@ -19,17 +19,28 @@
         android:src="@drawable/ic_account_circle_64dp"
         android:layout_gravity="top|center_vertical"
         android:layout_marginLeft="150dp"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="50dp"
+        android:elevation="2dp"
+        />
+    <ProgressBar
+        style="@style/Base.Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar2"
+        android:indeterminate="true"
+        android:layout_gravity="top|center_vertical"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="150dp"/>
 
     <TextView
         android:id="@+id/textViewNameValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/user_account_picture_profile"
-        android:layout_marginLeft="200dp"
+        android:layout_marginLeft="220dp"
         android:layout_marginTop="320dp"
         android:text=""
-        android:textSize="18sp"
+        android:textSize="25dp"
         android:textColor="@color/text_color"/>
 
     <TextView
@@ -42,5 +53,12 @@
         android:text=""
         android:textSize="18sp"
         android:textColor="@color/text_color"/>
+
+    <android.support.v17.leanback.widget.HorizontalGridView
+        android:layout_width="450dp"
+        android:layout_height="120dp"
+        android:id="@+id/gridView"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="40dp"/>
 
 </FrameLayout>

@@ -3,16 +3,20 @@ package acc.healthapp.fragments;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.IntentSender;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v17.leanback.widget.HorizontalGridView;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -22,6 +26,8 @@ import com.google.android.gms.plus.Plus;
 import com.google.android.gms.plus.model.people.Person;
 
 
+import acc.healthapp.AppDetail;
+import acc.healthapp.GridElementAdapter;
 import acc.healthapp.R;
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.io.IOException;
@@ -29,6 +35,8 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class HomeFragment extends Fragment implements GoogleApiClient.OnConnectionFailedListener,GoogleApiClient.ConnectionCallbacks{
@@ -40,9 +48,17 @@ public class HomeFragment extends Fragment implements GoogleApiClient.OnConnecti
     /* Should we automatically resolve ConnectionResults when possible? */
     private boolean mShouldResolve = false;
 
+    /* Client used to interact with Google APIs. */
     private GoogleApiClient mGoogleApiClient;
+    /* Circle image to display user profile image */
     private CircleImageView mProfileImage;
+    /* Text views to display name and email id */
     private TextView mTextViewName, mTextViewEmail;
+
+    private PackageManager manager;
+    private List<AppDetail> apps;
+    private HorizontalGridView mHorizontalGridView;
+    private ProgressBar progress;
 
     public static HomeFragment getInstance(int position) {
         HomeFragment homeFragment = new HomeFragment();
@@ -57,13 +73,38 @@ public class HomeFragment extends Fragment implements GoogleApiClient.OnConnecti
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View layout = inflater.inflate(R.layout.fragment_home, container, false);
 
+        //Progress bar
+        progress = (ProgressBar) layout.findViewById(R.id.progressBar2);
+        progress.setVisibility(View.GONE);
         //Person Image
         mProfileImage = (CircleImageView) layout.findViewById(R.id.user_account_picture_profile);
         //Person name
         mTextViewName = (TextView) layout.findViewById(R.id.textViewNameValue);
         //Person email
         mTextViewEmail = (TextView) layout.findViewById(R.id.textViewEmailValue);
-
+        //Launcher apps
+        mHorizontalGridView = (HorizontalGridView) layout.findViewById(R.id.gridView);
+//        mHorizontalGridView.setOnTouchListener(new ListView.OnTouchListener() {
+//            @Override
+//            public boolean onTouch(View v, MotionEvent event) {
+//                int action = event.getAction();
+//                switch (action) {
+//                    case MotionEvent.ACTION_DOWN:
+//                        // Disallow ScrollView to intercept touch events.
+//                        v.getParent().getParent().requestDisallowInterceptTouchEvent(true);
+//                        break;
+//
+//                    case MotionEvent.ACTION_UP:
+//                        // Allow ScrollView to intercept touch events.
+//                        v.getParent().getParent().requestDisallowInterceptTouchEvent(false);
+//                        break;
+//                }
+//
+//                // Handle HorizontalScrollView touch events.
+//                v.onTouchEvent(event);
+//                return true;
+//            }
+//        });
         // [START configure_signin]
         mGoogleApiClient = new GoogleApiClient.Builder(getActivity().getApplicationContext())
                 .addConnectionCallbacks(this)
@@ -73,6 +114,7 @@ public class HomeFragment extends Fragment implements GoogleApiClient.OnConnecti
                 .addScope(Plus.SCOPE_PLUS_PROFILE)
                 .build();
 
+        //Add onclick to profile image
         mProfileImage.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -83,6 +125,7 @@ public class HomeFragment extends Fragment implements GoogleApiClient.OnConnecti
             }
         });
 
+        loadHGridView();
         return layout;
     }
 
@@ -96,9 +139,11 @@ public class HomeFragment extends Fragment implements GoogleApiClient.OnConnecti
                 try {
                     connectionResult.startResolutionForResult(getActivity(), RC_SIGN_IN);
                     mIsResolving = true;
+                    progress.setVisibility(View.VISIBLE);
                 } catch (IntentSender.SendIntentException e) {
                     mIsResolving = false;
                     mGoogleApiClient.connect();
+                    progress.setVisibility(View.VISIBLE);
                 }
             }
         }
@@ -107,7 +152,7 @@ public class HomeFragment extends Fragment implements GoogleApiClient.OnConnecti
     @Override
     public void onConnected(Bundle bundle) {
         // Retrieve some profile information to personalize our app for the user.
-        Log.d("Home Fragement","Connected");
+        Log.d("Home Fragement", "Connected");
         Person currentUser = Plus.PeopleApi.getCurrentPerson(mGoogleApiClient);
 
         getProfileInformation();
@@ -145,14 +190,28 @@ public class HomeFragment extends Fragment implements GoogleApiClient.OnConnecti
 
             if (!mGoogleApiClient.isConnecting()) {
                 mGoogleApiClient.connect();
-
+                progress.setVisibility(View.VISIBLE);
             }
         }
     }
 
+    /*
+        Function which connects to google api
+     */
     private void signInWithGplus(){
         mShouldResolve = true;
         mGoogleApiClient.connect();
+    }
+
+    /**
+     * Sign-out from google
+     * */
+    private void signOutFromGplus() {
+        if (mGoogleApiClient.isConnected()) {
+            Plus.AccountApi.clearDefaultAccount(mGoogleApiClient);
+            mGoogleApiClient.disconnect();
+            mGoogleApiClient.connect();
+        }
     }
 
     /**
@@ -174,6 +233,7 @@ public class HomeFragment extends Fragment implements GoogleApiClient.OnConnecti
                 mTextViewEmail.setText(email);
 
                 //Get the profile oic of the user
+                progress.setVisibility(View.VISIBLE);
                 new GetImageFromUrl().execute(personPhotoUrl);
 
                 Log.e(TAG, "Name: " + personName + ", plusProfile: "
@@ -195,6 +255,7 @@ public class HomeFragment extends Fragment implements GoogleApiClient.OnConnecti
         }
     }
 
+    //Async task for downloading profile pic
     public class GetImageFromUrl extends AsyncTask<String, Void, Bitmap> {
         @Override
         protected Bitmap doInBackground(String... urls) {
@@ -208,6 +269,7 @@ public class HomeFragment extends Fragment implements GoogleApiClient.OnConnecti
         // Sets the Bitmap returned by doInBackground
         @Override
         protected void onPostExecute(Bitmap result) {
+            progress.setVisibility(View.GONE);
             mProfileImage.setImageBitmap(result);
         }
 
@@ -248,5 +310,39 @@ public class HomeFragment extends Fragment implements GoogleApiClient.OnConnecti
             }
             return stream;
         }
+    }
+
+    /*
+        Function which will list out all installed google apps accept the launcher app
+     */
+    private void loadApps(){
+        manager = getActivity().getPackageManager();
+        apps = new ArrayList<AppDetail>();
+
+        Intent i = new Intent(Intent.ACTION_MAIN, null);
+        i.addCategory(Intent.CATEGORY_LAUNCHER);
+
+        List<ResolveInfo> availableActivities = manager.queryIntentActivities(i, 0);
+
+        for(ResolveInfo ri:availableActivities){
+            AppDetail app = new AppDetail();
+            app.label = ri.loadLabel(manager);
+            String packageName = ri.activityInfo.packageName;
+            Log.d("packageName",""+packageName);
+            app.name = packageName;
+            app.icon = ri.activityInfo.loadIcon(manager);
+            if(packageName.contains("com.google") && !packageName.contains("launcher"))
+            apps.add(app);
+        }
+    }
+
+    /*
+        Function to populate the Horizotal Grid View for App display
+     */
+    private void loadHGridView(){
+        loadApps();
+        GridElementAdapter adapter = new GridElementAdapter(getActivity(),apps);
+
+        mHorizontalGridView.setAdapter(adapter);
     }
 }

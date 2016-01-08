@@ -16,6 +16,8 @@ import android.text.style.ImageSpan;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.View;
 
 import com.telly.mrvector.MrVector;
 
@@ -115,6 +117,17 @@ public class MainDashActivity extends MainDashBaseActivity {
         mPager = (ViewPager) findViewById(R.id.pager);
         mPager.setOffscreenPageLimit(5);
         mPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager()));
+
+        //Pronob Changes
+        mPager.requestDisallowInterceptTouchEvent(true);
+        mPager.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                mPager.setCurrentItem(mPager.getCurrentItem());
+                return true;
+            }
+        });
+        //Pronob Changes
         mTabs = (SlidingTabLayout) findViewById(R.id.tabs);
         mTabs.setCustomTabView(R.layout.custom_tab_view, R.id.tabText);
         //make sure all tabs take the full horizontal screen space and divide it equally amongst themselves
