@@ -9,15 +9,12 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
-import android.support.v4.view.ViewPager;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.style.ImageSpan;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.MotionEvent;
-import android.view.View;
 
 import com.telly.mrvector.MrVector;
 
@@ -31,12 +28,13 @@ import acc.healthapp.model.RequestStatus;
 import acc.healthapp.notification.NotificationID;
 import acc.healthapp.notification.NotificationsConstants;
 import acc.healthapp.tabs.SlidingTabLayout;
+import acc.healthapp.views.CustomViewPager;
 import java.util.List;
 
 
 public class MainDashActivity extends MainDashBaseActivity {
 
-    private ViewPager mPager;
+    private CustomViewPager mPager;
     private SlidingTabLayout mTabs;
     private String patientUserName;
     private String nurseUsername;
@@ -114,19 +112,12 @@ public class MainDashActivity extends MainDashBaseActivity {
     }
 
     private void setupTabs() {
-        mPager = (ViewPager) findViewById(R.id.pager);
+        mPager = (CustomViewPager) findViewById(R.id.pager);
         mPager.setOffscreenPageLimit(5);
         mPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager()));
 
         //Pronob Changes
-        mPager.requestDisallowInterceptTouchEvent(true);
-        mPager.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                mPager.setCurrentItem(mPager.getCurrentItem());
-                return true;
-            }
-        });
+        mPager.setPagingEnabled(false);
         //Pronob Changes
         mTabs = (SlidingTabLayout) findViewById(R.id.tabs);
         mTabs.setCustomTabView(R.layout.custom_tab_view, R.id.tabText);
