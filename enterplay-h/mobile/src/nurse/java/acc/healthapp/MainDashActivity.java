@@ -5,6 +5,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.NotificationCompat;
@@ -15,11 +16,9 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.text.format.DateUtils;
 import android.view.View;
-import android.widget.FrameLayout;
 import android.widget.LinearLayout;
-import android.widget.ListView;
+import android.widget.TextView;
 
-import java.util.Date;
 
 import acc.healthapp.api.RequestUpdateResultCallback;
 import acc.healthapp.fragments.NurseDialogHelper;
@@ -29,6 +28,7 @@ import acc.healthapp.model.Request;
 import acc.healthapp.model.RequestStatus;
 import acc.healthapp.notification.NotificationID;
 import acc.healthapp.notification.NotificationsConstants;
+import java.util.Date;
 
 public class MainDashActivity extends MainDashBaseActivity {
 
@@ -102,6 +102,11 @@ public class MainDashActivity extends MainDashBaseActivity {
 
         setupFeeds();
         setupDrawerActions();
+
+        TextView copyrightText = (TextView) findViewById(R.id.copyright);
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Regular.ttf");
+        copyrightText.setTypeface(typeface);
+        copyrightText.setTransformationMethod(null);
     }
 
 

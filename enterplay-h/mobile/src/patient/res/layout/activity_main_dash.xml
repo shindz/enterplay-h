@@ -1,3 +1,5 @@
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+             xmlns:android="http://schemas.android.com/apk/res/android">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -17,5 +19,24 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-
 </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:paddingLeft="30dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\u00A9Accenture 2016. Demo purpose only."
+            android:textColor="@color/secondary_text_default_material_light"
+            android:textSize="12sp"
+            android:layout_alignParentStart="false"/>
+    </RelativeLayout>
+</FrameLayout>

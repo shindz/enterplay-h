@@ -2,6 +2,7 @@ package acc.healthapp;
 
 import android.app.PendingIntent;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -15,6 +16,7 @@ import android.text.style.ImageSpan;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import com.telly.mrvector.MrVector;
 
@@ -49,6 +51,11 @@ public class MainDashActivity extends MainDashBaseActivity {
 
         this.nurseUsername = getIntent().getExtras().getString(NURSE_USER_NAME_KEY);
         this.patientUserName = getIntent().getExtras().getString(PATIENT_USER_NAME_KEY);
+
+        TextView copyrightText = (TextView) findViewById(R.id.copyright);
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Regular.ttf");
+        copyrightText.setTypeface(typeface);
+        copyrightText.setTransformationMethod(null);
     }
 
     @Override

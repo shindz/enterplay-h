@@ -39,9 +39,9 @@ public class NurseDialogHelper implements DialogHelper {
 
         Button acceptButton = (Button) newRequestDialog.findViewById(R.id.acceptbutton);
 
-        if (request.getRequestStatus().toInt() == RequestStatus.IN_PROGRESS) {
+        if (request.getRequestStatus().toInt().intValue() == RequestStatus.IN_PROGRESS) {
             acceptButton.setText(context.getString(R.string.complete_notification));
-        } else if (request.getRequestStatus().toInt() == RequestStatus.OPEN) {
+        } else if (request.getRequestStatus().toInt().intValue() == RequestStatus.OPEN) {
             acceptButton.setText(context.getString(R.string.accept_notification));
         }
 
@@ -122,10 +122,10 @@ public class NurseDialogHelper implements DialogHelper {
             public void onClick(View v) {
                 newRequestDialog.dismiss();
 
-                if (request.getRequestStatus().toInt() == RequestStatus.IN_PROGRESS) {
+                if (request.getRequestStatus().toInt().intValue() == RequestStatus.IN_PROGRESS) {
                     request.updateStatus(new RequestStatus(RequestStatus.COMPLETED));
                     api.updateRequest(request);
-                } else if (request.getRequestStatus().toInt() == RequestStatus.OPEN) {
+                } else if (request.getRequestStatus().toInt().intValue() == RequestStatus.OPEN) {
                     request.updateStatus(new RequestStatus(RequestStatus.IN_PROGRESS));
                     api.updateRequest(request);
                 }
